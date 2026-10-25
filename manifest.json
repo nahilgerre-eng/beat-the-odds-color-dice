@@ -1,0 +1,17 @@
+
+{
+  "manifest_version": 3,
+  "name": "BEAT THE ODDS - Color Dice",
+  "version": "1.0",
+  "description": "Change webpage colors using keys 1 to 6. Press 0 to reset.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "BEAT THE ODDS - Color Dice"
+  }
+}
